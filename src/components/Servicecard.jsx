@@ -4,7 +4,7 @@ const Servicecard = ({ val }) => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.09"
+      data-scroll-speed="-0.1"
       className=" w-[25%] flex flex-col items-center  py-10 flex-shrink-0 max-sm:w-[70%] max-sm:py-2"
     >
       <h1 className="font-serif text-md border-b-[1px] border-b-zinc-500 pb-2 gradient-text ">

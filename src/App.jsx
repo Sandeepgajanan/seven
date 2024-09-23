@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
 import Hero from "./components/Hero";
@@ -10,7 +10,18 @@ import Helps from "./components/Helps";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const scroll = new LocomotiveScroll();
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector("[data-scroll-container]"),
+        smooth: true,
+      });
+
+      return () => {
+        if (scroll) scroll.destroy();
+      };
+    }
+  }, []);
 
   return (
     <>

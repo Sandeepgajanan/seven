@@ -40,7 +40,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className=" max-w-screen-xl mx-auto pt-20  select-none  max-sm:pt-8 max-sm:h-[95vh]">
+    <section className=" max-w-screen-xl mx-auto pt-20  select-none  max-sm:pt-8 max-sm:h-[80vh]">
       <div className=" w-full h-full flex items-center justify-center flex-col">
         <div className="relative  h-fit w-fit z-10 text-center" ref={heroRef}>
           {texts.map((item, index) => (

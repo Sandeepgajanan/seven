@@ -38,11 +38,11 @@ const Help = ({ val }) => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.06"
+      data-scroll-speed="-0.1"
       className="w-full px-2  flex  items-center justify-between border-b-[1px] border-t-[1px] border-zinc-300 mt-10 py-3 relative max-sm:px-3  max-sm:py-5"
       ref={elemmainRef}
     >
-      <p className="font-[ff] text-[3vw] leading-[3vw]  max-sm:text-[6vw] max-sm:leading-[5vw] max-sm:mt-3">
+      <p className="font-[ff] text-[3vw] leading-[3vw]  max-sm:text-[5.5vw] max-sm:leading-[5vw] max-sm:mt-3 max-sm:w-[55%]">
         {val.text}
       </p>
       <div

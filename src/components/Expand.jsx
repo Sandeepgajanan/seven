@@ -37,7 +37,7 @@ const Expand = () => {
       <div
         data-scroll
         data-scroll-section
-        data-scroll-speed="-0.15"
+        data-scroll-speed="-0.16"
         className="max-w-screen-lg mx-auto"
       >
         <div className="ex">

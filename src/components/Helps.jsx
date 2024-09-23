@@ -8,7 +8,7 @@ const Helps = () => {
       <div
         data-scroll
         data-scroll-section
-        data-scroll-speed="-0.05"
+        data-scroll-speed="-0.09"
         className="max-w-screen-lg mx-auto py-10 max-sm:py-5"
       >
         <h1 className="text-[5vw] font-[ff] text-center uppercase mb-10 gradient-text max-sm:text-[8vw] ">

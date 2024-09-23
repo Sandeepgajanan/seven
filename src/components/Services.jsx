@@ -18,7 +18,7 @@ const Services = () => {
           changing landscape calls for a comprehensive approach to meet the
           challenge.
         </p>{" "}
-        <div className="mt-5 flex items-center justify-center flex-wrap gap-4 w-full h-full max-sm:flex-col max-sm:gap-8 max-sm:mt-1">
+        <div className="mt-5 flex items-center justify-center flex-wrap gap-4 w-full h-full max-sm:flex-col  max-sm:mt-1">
           {service.map((item, index) => (
             <Servicecard key={index} val={item} />
           ))}

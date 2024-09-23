@@ -5,7 +5,7 @@ const Expandcard = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="0.2"
+      data-scroll-speed="0.3"
       className="flex items-center justify-between  flex-wrap max-sm:flex-col max-sm:px-10"
     >
       {expandData.map((item, index) => (
